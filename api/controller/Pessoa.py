@@ -1,4 +1,4 @@
-from api.controller.generic import create_crud_router, Hooks
+from controller.generic import create_crud_router, Hooks
 from lib.model.models import Pessoa
 from lib.model.dto import PessoaCreate, PessoaUpdate, PessoaRead
 

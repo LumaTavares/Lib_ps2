@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from api.controller.Pessoa import router as Pessoa_router
-from api.controller.Endereco import router as End_router
+from controller.Pessoa import router as Pessoa_router
+from controller.Endereco import router as End_router
 from lib.model.models import init_db
 
 app = FastAPI(title="FastAPI + SQLModel - MVC + Repository")

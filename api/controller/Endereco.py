@@ -1,7 +1,7 @@
 # app/routers/team.py
 from fastapi import HTTPException
 from sqlmodel import Session
-from api.controller.generic import create_crud_router, Hooks
+from controller.generic import create_crud_router, Hooks
 from lib.model.models import Endereco, Pessoa 
 from lib.model.dto import EndCreate, EndUpdate, EndRead
 
